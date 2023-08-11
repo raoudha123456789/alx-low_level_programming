@@ -17,7 +17,8 @@ putchar(first_number / 10 + '0');
 putchar(first_number % 10 + '0');
 putchar(' ');
 putchar(second_number / 10 + '0');
-putchar(second_number % 10 + '0');if (first_number != 98 || second_number != 99)
+putchar(second_number % 10 + '0');
+if (first_number != 98 || second_number != 99)
 {
 putchar(',');
 putchar(' ');
