@@ -5,14 +5,15 @@
  * Description: Can only use _putchar 3 times
  * Return: void
  */
-
 void more_numbers(void)
 {
     int c, i;
     c = 0;
+
     while (c < 10)
     {
         i = 0;
+
         while (i < 15)
         {
             if (i > 9)
