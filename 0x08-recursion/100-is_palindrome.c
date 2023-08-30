@@ -18,8 +18,10 @@ return (1);
 if (s[start] != s[end])
 {
 return (0);
-} 
+}
+
 return (is_palindrome_recursive(s, start + 1, end - 1));
+
 }
 
 /**
